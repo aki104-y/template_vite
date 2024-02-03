@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "stylelint": "stylelint \"src/**/*.scss\"",
+    "fix": "stylelint \"src/**/*.scss\" --fix",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "css-declaration-sorter": "^7.1.1",
+    "jquery": "^3.7.1",
+    "postcss": "^8.4.31",
+    "sass": "^1.69.0",
+    "stylelint": "^15.11.0",
+    "stylelint-config-property-sort-order-smacss": "^9.1.0",
+    "stylelint-config-recess-order": "^4.3.0",
+    "stylelint-config-standard-scss": "^11.0.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-prettier": "^4.0.2",
+    "vite": "^4.4.5"
+  }
+}

@@ -1,0 +1,14 @@
+/* main
+------------------------------------------------------ */
+@use "../base/setting" as *;
+@use "../global/mixin/breakpoint" as *;
+
+.main__inner {
+  padding: 80px $padding-side-sp 80px $padding-side-sp;
+
+  @include mq(md) {
+    max-width: $layout-width;
+    margin: 0 auto;
+    padding: 100px $padding-side 100px $padding-side;
+  }
+}
